@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #pokemon-details {
+    display: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #pokemon-image {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  #pokemon-types,
+  #pokemon-abilities,
+  #pokemon-base-experience {
+    font-weight: bold;
+  }
